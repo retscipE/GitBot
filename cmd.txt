@@ -1,0 +1,21 @@
+// Command
+
+import { SlashCommandBuilder } from 'discord.js'
+import { command } from '../../utils'
+import ms from 'ms'
+
+const meta = new SlashCommandBuilder()
+  .setName('')
+  .setDescription('')
+
+export default command(meta, ({ interaction }) => {
+  
+})
+
+// Category
+
+import { category } from '../../utils'
+
+export default category("", "", [
+    
+])
