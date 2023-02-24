@@ -4,4 +4,5 @@ export interface Keys {
     testGuild: string
     mongoDBUri: string
     inviteLink: string
+    githubApiKey: string
 }

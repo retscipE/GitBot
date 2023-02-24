@@ -11,7 +11,7 @@ const helpCommand = command(meta, ({ interaction }) => {
   const embed = new EmbedBuilder()
     .setColor("Navy")
     .setAuthor({
-      name: "<your bot> Help Menu",
+      name: "GitBot Help Menu",
       iconURL: interaction.client.user.displayAvatarURL(),
     });
 
@@ -50,7 +50,7 @@ const helpEvent = event(
 
   const embed = new EmbedBuilder()
     .setColor("Navy")
-    .setAuthor({ name: "<your bot> Help Menu", iconURL: interaction.client.user.displayAvatarURL() })
+    .setAuthor({ name: "GitBot Help Menu", iconURL: interaction.client.user.displayAvatarURL() })
 
   categories.forEach((category) => {
     if (interaction.values[0] === `${category.name}_option`) {

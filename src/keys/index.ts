@@ -5,6 +5,7 @@ const keys: Keys = {
     testGuild: process.env.TEST_GUILD ?? 'nil',
     mongoDBUri: process.env.MONGO_DB ?? 'nil',
     inviteLink: process.env.INVITE_LINK ?? 'nil',
+    githubApiKey: process.env.GITHUB_TOKEN ?? 'nil',
 }
 
 // Check if an environment variable is defined
